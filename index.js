@@ -31,4 +31,6 @@ console.log(message);
     n=23
     console.log(typeof(n));
 
- let fd=prompt(title,[defaul])
+
+    
+
