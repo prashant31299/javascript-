@@ -33,3 +33,5 @@ let con =age>20 ? true:false
 console.log(con);
 alert(con)
 
+
+
