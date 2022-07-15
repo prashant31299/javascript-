@@ -76,8 +76,20 @@ while(l<3){
 // }
 // alert('num is gree')
 
-let num;
-do{
-    num=prompt("enter num")
+// let num;
+// do{
+//     num=prompt("enter num")
 
-}while(num<=100&&num)
+// }while(num<=100&&num)
+
+
+// output prime number ?
+let A=10;
+
+for(let b=2;b<=A;b++){
+
+    for (let c=2; c<b;c++){
+        if (b%c==0)continue;
+    }
+    console.log(b);
+}
