@@ -20,5 +20,22 @@ function sayhi(){
 }
 let func = sayhi;
 
-func()
-sayhi();
+// func()
+// sayhi();
+
+function ask(question,yes,no) {
+    if (confirm(question))yes()
+    else no()
+}
+
+ask("do you agree ?", showOK,showCancel)
+
+function showOK(){
+    alert('you agreed . ');
+}
+
+function showCancel(){
+    alert("you cancel the execution")
+}
+
+
